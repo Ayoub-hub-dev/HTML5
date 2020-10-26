@@ -9,7 +9,7 @@
 <body>
 
 	<!-- Start Header -->
-	<header>
+	<header id="head">
 		<h1>Hello HTML5</h1>
 	</header>
 	<!-- End Header -->
@@ -32,19 +32,18 @@
 
 	<!-- Start Article -->
 	<article>
-		<section>
+		<section class="sct">
 			<header>
 				<h3>Our New Framework Milestone</h3>
 				<p>Created By Ayoub On 26/10/2020</p>
 			</header>
 			<section>
 				<p>This is Article Number #01</p>
+				Design : <progress value="5" max="10"></progress>
+				Conding : <progress max="10" value="7"></progress>
 			</section>
 		</section>
-	</article>
-
-	<article>
-		<section>
+		<section class="sct">
 			<header>
 				<h3>Article #02</h3>
 				<p>Created By Ayoub On 26/10/2020</p>
@@ -53,10 +52,7 @@
 				<p>This is Article Number #02</p>
 			</section>
 		</section>
-	</article>
-
-	<article>
-		<section>
+		<section class="sct">
 			<header>
 				<h3>Article #03</h3>
 				<p>Created By Ayoub On 26/10/2020</p>
@@ -66,5 +62,28 @@
 			</section>
 		</section>
 	</article>
+	<!-- End Article -->
+
+	<!-- Start Aside -->
+	<aside>
+		<section>
+			<h2>Categories</h2>
+			<ul>
+				<li>Intro</li>
+				<li>Semantics</li>
+				<li>Api</li>
+				<li>New Attrbtes</li>
+				<li>Multimedia Elements</li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Performance</h2>
+			<ul>
+				<li>CPU : <meter min="1" max="10" value="5"></meter></li>
+				<li>RAM : <meter min="1" max="10" value="4"></meter>
+			</ul>	
+		</section>
+	</aside>
 </body>
 </html>
