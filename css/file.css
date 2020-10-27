@@ -104,4 +104,15 @@ aside h2 {
     padding: 10px 25px;
     background: #b5b5b5;
 }
+.sct-2{
+	height: 200px;
+}
+.sct-2 input{
+	margin: 10px 20px;
+	outline:none;
+}
+.sct-2 div{
+	margin: 0 20px;
+	height: 101px;
+}
 /*-- End Aside --*/
