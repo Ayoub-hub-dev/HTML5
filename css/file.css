@@ -76,6 +76,12 @@ article .sct > section{
 progress{
 	margin-right: 10px;
 }
+#det {
+	width: 85px;
+}
+#det ul{
+	list-style-type: none;
+}
 
 /*-- End Article --*/
 /*-- Start Aside --*/
