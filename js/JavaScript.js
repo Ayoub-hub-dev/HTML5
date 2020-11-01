@@ -3,5 +3,13 @@ var myName = document.getElementById('inp'),
 
 function myFar() {
     "use strict";
-    myDiv.innerHTML = myName.value ;
+    var Friends = "lahoucine";
+    switch (Friends) {
+        case ("lahoucine"):
+            myDiv.innerHTML = "Welecome";
+            break;
+        default:
+            myDiv.innerHTML = "Sorry your name is not in list of the Beast friend";
+            break;
+    }
 }

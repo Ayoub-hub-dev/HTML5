@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>HTML5</title>
-	<link rel="stylesheet" href="css/file.css">
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>HTML5</title>
+		<link rel="stylesheet" href="css/file.css">
+	</head>
+	<body>
 
-	<!-- Start Header -->
-	<header id="head">
-		<h1>Hello HTML5</h1>
-	</header>
-	<!-- End Header -->
+		<!-- Start Header -->
+		<header id="head">
+			<h1>Hello HTML5</h1>
+		</header>
 
-	<!-- Start Navigation -->
-	<nav>
-		<ul>
-			<li>HTML</li>
-			<li>CSS</li>
-			<li>JavaScript</li>
-			<li>MySQL</li>
-	</nav>
-	<!-- End Navigation -->
+		<dialog open>
+			<p>HI Friends</p>
+		</dialog>
+		<!-- End Header -->
 
-	<!-- Start main -->
-	<main>
-		<h2>Welcome to Our Course From Ayoub</h2>
-	</main>
-	<!-- End main -->
+		<!-- Start Navigation -->
+		<nav>
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+				<li>MySQL</li>
+			</ul>
+		</nav>
+		<!-- End Navigation -->
 
-	<!-- Start Article -->
-	<article>
-		<section class="sct">
-			<header>
-				<h3>Our New Framework Milestone</h3>
-				<p>Created By Ayoub On 26/10/2020</p>
-			</header>
+		<!-- Start main -->
+		<main>
+			<h2>Welcome to Our Course From Ayoub</h2>
+		</main>
+		<!-- End main -->
+
+		<!-- Start Article -->
+		<article>
+			<section class="sct">
+				<header>
+					<h3>Our New Framework Milestone</h3>
+					<p>Created By Ayoub On 26/10/2020</p>
+				</header>
 			<section>
 				<p>This is Article Number #01</p>
 				Design : <progress value="5" max="10"></progress>
 				Conding : <progress max="10" value="7"></progress>
 			</section>
-		</section>
-		<section class="sct">
+			</section>
+			<section class="sct">
 			<header>
 				<h3>Article #02</h3>
 				<p>Created By Ayoub On 26/10/2020</p>
@@ -60,47 +65,92 @@
 					</ul>
 				</details>
 			</section>
-		</section>
-		<section class="sct">
+			</section>
+			<section class="sct">
 			<header>
 				<h3>Article #03</h3>
 				<p>Created By Ayoub On 26/10/2020</p>
 			</header>
 			<section>
 				<p>This is Article Number #03</p>
+				&lt;div&gt; Paraghraph &lt;/div&gt;
 			</section>
-		</section>
-	</article>
-	<!-- End Article -->
+			</section>
+			<section>
+			<header>
+				<h3>Article #03</h3>
+				<p>Created By Ayoub On 26/10/2020</p>
+			</header>
+			<section>
+				<p>This is Article Number #03</p>
+				<figure>
+					<img src="#">
+					<figcaption>Cat</figcaption>
+				</figure>
+			</section>
+			</section>
+		</article>
+		<!-- End Article -->
 
-	<!-- Start Aside -->
-	<aside>
-		<section>
-			<h2>Categories</h2>
-			<ul>
-				<li>Intro</li>
-				<li>Semantics</li>
-				<li>Api</li>
-				<li>New Attrbtes</li>
-				<li>Multimedia Elements</li>
-			</ul>
-		</section>
+		<!-- Start Aside -->
+		<aside>
+			<section>
+				<h2>Categories</h2>
+				<div>
+					<ul>
+						<li>Intro</li>
+						<li>Semantics</li>
+						<li>Api</li>
+						<li>New Attrbtes</li>
+						<li>Multimedia Elements</li>
+					</ul>
+				</div>	
+			</section>
 
-		<section>
-			<h2>Performance</h2>
-			<ul>
-				<li>CPU : <meter min="1" max="10" value="5"></meter></li>
-				<li>RAM : <meter min="1" max="10" value="4"></meter>
-			</ul>	
-		</section>
+			<section>
+				<h2>Performance</h2>
+				<div>
+					<ul>
+						<li>CPU : <meter min="1" max="10" value="5"></meter></li>
+						<li>RAM : <meter min="1" max="10" value="4"></meter>
+					</ul>
+				</div>	
+			</section>
 
-		<section class="sct-2">
-			<h2>Search</h2>
-			<input type="text" id="inp" placeholder="Type Your Name Here">
-			<button onclick="myFar()">Click Here</button>
-			<div id="div"></div>
-		</section>
-	</aside>
-	<script src="js/JavaScript.js"></script>
-</body>
+			<section class="sct-2">
+				<h2>Search</h2>
+				<div>
+					<input type="text" id="inp" placeholder="Type Your Name Here">
+					<button onclick="myFar()">Click Here</button>
+					<div id="div"></div>
+				</div>	
+			</section>
+			<section>
+				<h2>Friends</h2>
+				<div>
+					<ul>
+						<li>Ayoub : 100 point</li>
+						<li><bdi>الحسين</bdi> : 100 piont</li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<h2>What's your Best Browser ?</h2>
+				<div>
+					<form>
+						<input list="Browser">
+						<datalist id="Browser">
+							<option value="Chrome">
+							<option value="FireFoxe">
+							<option value="Explorer">
+							<option value="Safari">
+						</datalist> 
+					</form>
+				</div>
+			</section>
+		</aside>
+		<!-- End Aside -->
+
+		<script src="js/JavaScript.js"></script>
+	</body>
 </html>
